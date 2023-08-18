@@ -36,5 +36,5 @@ def get_event1():
     return jsonify(events1)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080)
+    app.run(host='ec2-15-207-71-215.ap-south-1.compute.amazonaws.com', port=8080)
 
